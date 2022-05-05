@@ -1,8 +1,9 @@
+import pfp from ".src\assets\images\pfp.png";
+
 function Bar(){
-    return 
-    <div>
-        <img src="src/assets/images/pfp.png"/>
-    </div>
+    return (<div>
+        <img src={pfp} alt="profile"></img>
+    </div>)
 }
 
-export defasult Bar
+export default Bar
